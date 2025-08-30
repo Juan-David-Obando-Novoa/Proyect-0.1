@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link href="google_advance.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav style="display: flex; justify-content: space-between; align-items: center; padding: 10px;">
+        <!-- Logo a la izquierda -->
+        <div>
+            <img src="img/google.png" alt="Google Logo" style="height: 25px; width: 90px;">
+        </div>
+
+        <!-- Enlaces a la derecha -->
+        <ul>
+            <li><a href="google_image.html">Google Images</a></li>
+            <li><a href="index.html">Google Search</a></li>
+        </ul>
+    </nav>
+
+    <div>
+            <label id="title">Advanced Search</label>
+    </div>
+
+
+    <div>
+        <form action="https://www.google.com/search">
+            <div  class="tres" style = "width: 200px;">
+                <h4 style = "font-weight: 500; margin-left:10px;" >Mostrar páginas que contengan...</h4>
+            </div>
+
+
+            <div class="grande">
+                <div class="tres">
+                    <div  class="tresDentro"><label class="full-label">all these words:</label></div>
+                    <div  class="tresDentro"><input class="text-label"autofocus="autofocus" name="as_q" type="text"></div>
+                    <div  class="tresDentro"><label id = hiddenLabel class="full-label"> Type the important words <span class="BFlQMb">tri-colour rat terrier</span></label></div>
+                </div>          
+                
+                
+                <div  class ="tres">
+                    <div class="tresDentro"><label class="full-label">this exact word or phrase:</label></div>
+                    <div class="tresDentro"><input class="text-label"autofocus="autofocus" name="as_epq" type="text"></div>
+                    <div class="tresDentro"><label id = hiddenLabel class="full-label"> Put exact words in quotes:: <span class="BFlQMb">"Terrier ratonero"</span></label></div>
+                </div>
+
+
+                <div class ="tres">
+                    <div class="tresDentro"><label class="full-label">any of these words:</label></div>
+                    <div class="tresDentro"><input class="text-label"autofocus="autofocus" name="as_oq" type="text"></div>
+                    <div class="tresDentro"><label id = hiddenLabel class="full-label"> Type OR between all the words you want: <span class="BFlQMb">miniature OR standard .</span></label></div>
+                </div>
+
+
+                <div class ="tres">
+                    <div class="tresDentro"><label class="full-label">none of these words:</label></div>
+                    <div class="tresDentro"><input class="text-label"autofocus="autofocus" name="as_eq" type="text"></div>
+                    <div class="tresDentro"><label id = hiddenLabel class="full-label"> Put a minus sign just before words that you don't want:<span class="BFlQMb"> -Roedor, -"Jack Russell" .</span></label></div>
+                </div>
+            </div>
+
+            <div class ="tres">
+                <div class="tresDentro">  <input class = btn type="submit" name="btnI" value="I'm Feeling Lucky"></div>
+                <div class= "tresDentro"><input class =button type="submit" value="Google Advance Search"></div>
+            </div>
+        </form>
+    </div>
+</body>
+
+
+
+</html>

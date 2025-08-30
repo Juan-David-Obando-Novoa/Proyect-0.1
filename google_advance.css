@@ -1,0 +1,173 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+img {
+  width: 50%;
+  max-width: 150px;
+  margin-bottom: 50px;
+}
+
+#title {
+  color: red;
+  margin: 60px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 50px;
+  display: flex;
+  text-align: start;
+  flex-direction: column;
+}
+
+.otByu .yIQOUb {
+  width: 100%;
+  clear: both;
+}
+
+.otByu .yIQOUb {
+  clear: both;
+  float: right;
+  margin: 10px 0;
+}
+
+.grande {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.tres {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  flex-direction: row;
+  margin-left: 50px;
+  margin-bottom: 1px;
+  align-items: center;
+}
+
+.tresDentro {
+  background-color: white;
+  font-size: 16px;
+  margin: 2px;
+  padding: 2px;
+  align-items: center;
+}
+
+.full-label {
+  display: flex;
+  width: 200px;
+  background: white;
+  align-items: center;
+  font-size: 13px;
+}
+
+.text-label {
+  display: flex;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  height: 25px;
+  width: 300px;
+  background: white;
+  vertical-align: center;
+  border: 1px solid #333;
+}
+
+.BFlQMb {
+  font-family: monospace;
+}
+
+#hiddenLabel {
+  display: flex;
+  width: auto;
+  background: white;
+  align-items: center;
+  vertical-align: center;
+  font-size: 13px;
+}
+
+@media (max-width: 800px) {
+  #hiddenLabel {
+    display: none;
+  }
+}
+.button {
+  background-color: #4285f4;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  color: #dadce0;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  cursor: pointer;
+  height: 37px;
+  min-width: 120px;
+  text-align: center;
+  user-select: none;
+  box-sizing: border-box;
+  align-items: right;
+}
+
+.button:hover {
+  background-color: #2070f1;
+  border: 1px solid #dadce0;
+}
+
+.button:focus {
+  border: 1px solid #4285f4;
+  outline: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4285f4;
+  border: #dadce0;
+  height: 36px;
+  color: #dadce0;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0c57c7;
+}
+
+/*# sourceMappingURL=google_advance.css.map */
